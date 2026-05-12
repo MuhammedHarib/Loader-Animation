@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page Reveal Animation | Codegrid</title>
+    <title>Landing Page Reveal Animation </title>
+    <script type="importmap">
+    {
+      "imports": {
+        "gsap": "https://esm.sh/gsap",
+        "gsap/SplitText": "https://esm.sh/gsap/SplitText",
+        "gsap/CustomEase": "https://esm.sh/gsap/CustomEase"
+      }
+    }
+    </script>
     <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
@@ -102,7 +111,8 @@
     </div>
 
     <section class="hero">
-        <div class="preloader-revealer"></div>
+        <div class="preloader-revealer">
+        </div>
         <h1>The system is now visible</h1>
     </section>
 
